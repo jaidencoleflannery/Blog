@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cole Flannery</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    
+    <nav>
+        <div class="nav-content">
+            <h3 class="logo">.blog</h3>
+            <div class="nav-links">
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1 class="title">Welcome to my <span class="pixel-font">Blog</span></h1>
+        <p class="subtitle">( like my room, but tidier )</p>
+    </header>
+
+    <main class="bento-grid">
+        <article class="post featured">
+            <span class="post-category">Statistics</span>
+            <h2>Central Limit Theorem</h2>
+            <p class="date">December 6, 2024</p>
+            <span class="post-body">
+                <h4>Central Limit Theorem:</h4> <p>Literally the Backbone of Statistical Analysis.</p>
+                <p>CLT seems to be one of the most fundamental concepts in statistics. Most recently, (in the statistics class I am finishing), I studied the topic of Central Limit Theorem and how it allows us to make more informed decisions on samples, and I thought we should talk about it.
+                The Central Limit Theorem (CLT) basically means that if you take a sufficiently large number of random samples from your population, the distribution of your means will start to look like a bell curve, or a normal distribution (even if the population data is extremely skewed or even bimodal). 
+                The Three Key Components are: 
+                Sample Size. The theorem typically starts working well when sample sizes reach about 30 or more. Larger samples lead to better approximations.
+                Independence. The samples must be independent of each other. This means that selecting one value shouldn't influence the probability of selecting another.
+                Mean and Variance. The distribution of sample means will have the same mean as the original population, but the variance will be smaller – specifically, it will be the population variance divided by the sample size.
+                CLT  forms the foundation for Statistical inference, Hypothesis testing, and Confidence intervals. All of which are super important for general data analysis.
+                Consider a quality control engineer at a manufacturing plant. They can't test every product, but by understanding the CLT, they can test random samples and make reliable speculations about the population. This can obviously be used in a plethora of fields.
+                What makes the CLT truly remarkable is its universality. Whether you're measuring heights, test scores, or stock prices, the theorem holds true. This universality has led mathematician David Pollard to call it "probably the most important theorem in statistics."
+                Check out this video, it helped me come to a better understanding of CLT. 
+                https://www.youtube.com/embed/zeJD6dqJ5lo</p>
+            </span>
+            <a href="#" class="read-more">Read more</a>
+        </article>
+
+        <article class="post">
+            <span class="post-category">ANGULAR</span>
+            <h2>TITLE</h2>
+            <p class="date">December 5, 2024</p>
+            <span class="post-body">
+                <h4>Boiler:</h4> <p>plate.</p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+            </span>
+            <a href="#" class="read-more">Read more</a>
+        </article>
+
+        <article class="post">
+            <span class="post-category">C#</span>
+            <h2>TITLE</h2>
+            <p class="date">December 4, 2024</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+            <a href="#" class="read-more">Read more</a>
+        </article>
+
+        <article class="post">
+            <span class="post-category">LIFE</span>
+            <h2>TITLE</h2>
+            <p class="date">December 3, 2024</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            <a href="#" class="read-more">Read more</a>
+        </article>
+
+        <article class="post">
+            <span class="post-category">C#</span>
+            <h2>TITLE</h2>
+            <p class="date">December 3, 2024</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            <a href="#" class="read-more">Read more</a>
+        </article>
+        
+    </main>
+
+    <footer>
+        <p>© 2024 Cole Flannery.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
