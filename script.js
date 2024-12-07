@@ -413,8 +413,7 @@ class BlogModal {
         }, 300);
     }
 
-    async fetchBlogContent(title, category, postbody, video) {
-        // Simulate API call - replace with actual fetch
+    async fetchBlogContent(title, category, postbody) {
         return {
             title,
             content: `
@@ -448,6 +447,7 @@ class BlogModal {
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen
                     ></iframe>
+                    <div> video </div>
                 `;
             }
         });
